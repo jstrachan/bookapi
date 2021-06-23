@@ -1,4 +1,4 @@
-FROM bookapi-dependencies
+FROM node:7.10.0
 
 RUN mkdir -p /usr/src/app
 WORKDIR /usr/src/app
