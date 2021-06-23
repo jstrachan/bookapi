@@ -24,8 +24,8 @@ hpa:
   minReplicas: 2
 image:
   pullPolicy: IfNotPresent
-  repository: draft
-  tag: dev
+  repository: gcr.io/jenkins-x-labs-bdd1/bookapi
+  tag: 0.0.3
 ingress:
   annotations: {}
   classAnnotation: ""
