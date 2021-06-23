@@ -4,7 +4,7 @@
   "description": "A Book API",
   "main": "api/index.js",
   "scripts": {
-    "test": "echo \"Testing is for cowards\" && exit 1",
+    "test": "echo \"TODO\" && exit 0",
     "knex": "knex"
   },
   "keywords": [
