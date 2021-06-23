@@ -14,7 +14,8 @@ canary:
   labels: {}
   progressDeadlineSeconds: 60
 deploymentLabels: {}
-env: null
+env:
+  PG_HOST: postgres-master
 hpa:
   cpuTargetAverageUtilization: 80
   enabled: false
@@ -74,7 +75,7 @@ resources:
 service:
   annotations: {}
   externalPort: 80
-  internalPort: 8080
+  internalPort: 3000
   labels: {}
   name: bookapi
   type: ClusterIP
